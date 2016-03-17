@@ -100,6 +100,6 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
 
-DROPBOX_OAUTH2_TOKEN = os.environ['xrfX1sPcp-YAAAAAAAAKni_SD3QXYEPBEA-FSMCi8FI665CuaA8D711rjupuBQFS']
+DROPBOX_OAUTH2_TOKEN = ['xrfX1sPcp-YAAAAAAAAKni_SD3QXYEPBEA-FSMCi8FI665CuaA8D711rjupuBQFS']
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'public', 'static')
